@@ -1,0 +1,31 @@
+{
+  "errors": {
+    "required": "Ce champ est obligatoire",
+    "invalid_type": "Type invalide",
+    "min_zero": "La valeur doit être 0 ou plus",
+    "variant": {
+      "price_required": "Le prix est obligatoire",
+      "stock_required": "Le stock est obligatoire",
+      "color_required": "La couleur est obligatoire",
+      "size_required": "La taille est obligatoire",
+      "duplicate": "Ce variant existe déjà"
+    },
+    "inventory": {
+      "warehouse_required": "L'emplacement en entrepôt est obligatoire",
+      "weight_invalid": "Le poids doit être un nombre",
+      "fulfillment_required": "Le type de livraison est obligatoire"
+    },
+    "shipping": {
+      "class_required": "La classe d'expédition est obligatoire",
+      "return_policy_required": "La politique de retour est obligatoire"
+    },
+    "product": {
+      "name_required": "Le nom du produit est obligatoire",
+      "price_required": "Le prix est obligatoire"
+    }
+  },
+  "toast": {
+    "variant_added": "Nouveau variant ajouté",
+    "duplicate": "Ce variant existe déjà"
+  }
+}

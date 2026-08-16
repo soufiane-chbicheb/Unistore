@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "types" : ["vite/client" , "react" , "react-dom"] , 
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "allowJs" : false ,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["resources/js/*"]
+    }
+  },
+  "include": ["resources/js/**/*.ts", "resources/js/**/*.tsx", "resources/backups/ParfumesBasicInfoForm.tsx", "resources/backups/createOld.tsx", "resources/backups/VariantsSection.tsx", "resources/views/welc.tsx", "resources/backups/ManageColors.tsx", "resources/js/bootstrap.js" ],
+  "exclude": ["node_modules"]
+}
