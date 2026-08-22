@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <a href="#" className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-to-r from-saas-orange to-amber-500 bg-clip-text text-transparent">
-                Unistore
+                UniStore
               </span>
             </a>
           </div>

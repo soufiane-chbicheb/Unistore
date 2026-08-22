@@ -111,7 +111,7 @@ export default function CreateStore({ defaultDomain, nextIndex, auth }: Props) {
                     <div className="p-1.5 rounded-lg bg-blue-600 text-white shadow-lg shadow-blue-200 group-hover:scale-110 transition-transform">
                         <Flower size={24} />
                     </div>
-                    <span className="text-xl font-bold tracking-tight text-gray-900">MicroMarket</span>
+                    <span className="text-xl font-bold tracking-tight text-gray-900">UniStore</span>
                 </Link>
                 
                 <div className="flex items-center gap-4">

@@ -442,7 +442,7 @@ class NewStoreDefaultsSeeder extends Seeder
                         ['store_id' => $storeId, 'slug' => Str::slug($productName) . '-' . $storeId],
                         [
                             'name' => $productName,
-                            'brand' => 'MicroMarket',
+                            'brand' => 'UniStore',
                             'description' => "This is a premium {$type['prefix']} product description for item #{$j}.",
                             'status' => 'published',
                             'ready_to_publish' => true,

@@ -17,7 +17,7 @@ const HeroSection = () => {
         <div className="flex flex-col items-center justify-center max-w-4xl mx-auto">
           <div className="animate-fade-in">
             <span className="inline-block bg-saas-orange/10 text-saas-orange px-4 py-2 rounded-full text-sm font-medium mb-6 border border-saas-orange/20">
-              Introducing Unistore 2.0
+              Introducing UniStore 2.0
             </span>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight">

@@ -145,7 +145,7 @@ const LayoutContent = ({ children, currentPage, seo }: LayoutProps) => {
               {/* Logo */}
               <div className="flex-shrink-0">
                 <Link href="/" className="text-2xl font-bold" style={{ color: theme.header.text }}>
-                  COZA STORE
+                  UniStore
                 </Link>
               </div>
 
@@ -456,7 +456,7 @@ const LayoutContent = ({ children, currentPage, seo }: LayoutProps) => {
 
           <div className="mt-16 pt-8 border-t border-gray-800 text-center">
             <p className="text-gray-500 text-xs">
-              Copyright &copy; {new Date().getFullYear()} All rights reserved | This template is made with <Heart className="inline-block w-3 h-3 text-red-500 mx-1" /> by COZA
+              Copyright &copy; {new Date().getFullYear()} All rights reserved | This template is made with <Heart className="inline-block w-3 h-3 text-red-500 mx-1" /> by UniStore
             </p>
           </div>
         </div>

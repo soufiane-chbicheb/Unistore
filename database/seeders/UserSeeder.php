@@ -47,7 +47,7 @@ class UserSeeder extends Seeder{
 
         // Create the specific admin user
         $admin = User::firstOrCreate(
-            ['email' => 'amin@example.com'],
+            ['email' => 'soufianechbicheb@gmail.com'],
             [
                 'name' => 'Admin User',
                 'password' => \Illuminate\Support\Facades\Hash::make('password'),
