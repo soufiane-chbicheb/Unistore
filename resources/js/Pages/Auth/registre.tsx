@@ -29,7 +29,7 @@ export default function Register() {
 
     return (
         <div className="min-h-screen w-full flex bg-white font-sans overflow-hidden">
-            <Head title="Create Account - MicroMarket" />
+            <Head title="Create Account - UniStore" />
             
             {/* Left Section: Image/Branding (Reversed for Register) */}
             <motion.div 
@@ -46,7 +46,7 @@ export default function Register() {
 
                 <div className="relative z-10 w-full h-full flex flex-col items-center justify-center p-16 text-white text-center">
                     <div className="max-w-xl mb-12">
-                        <h2 className="text-5xl font-extrabold mb-6 leading-tight">Start your journey with MicroMarket today.</h2>
+                        <h2 className="text-5xl font-extrabold mb-6 leading-tight">Start your journey with UniStore today.</h2>
                         <p className="text-blue-100 text-lg font-medium opacity-90">Join thousands of businesses scaling their operations with our unified commerce platform.</p>
                     </div>
                     
@@ -74,7 +74,7 @@ export default function Register() {
                     <div className="p-1.5 rounded-lg bg-blue-600 text-white shadow-lg shadow-blue-200 group-hover:scale-110 transition-transform">
                         <Flower size={24} />
                     </div>
-                    <span className="text-xl font-bold tracking-tight text-gray-900">MicroMarket</span>
+                    <span className="text-xl font-bold tracking-tight text-gray-900">UniStore</span>
                 </Link>
 
                 <div className="max-w-md w-full mx-auto my-auto">
@@ -214,7 +214,7 @@ export default function Register() {
 
                 {/* Footer Info */}
                 <div className="mt-auto pt-8 flex justify-between items-center text-[10px] uppercase font-bold tracking-widest text-gray-300">
-                    <span>Copyright © {new Date().getFullYear()} MicroMarket Enterprises LTD.</span>
+                    <span>Copyright © {new Date().getFullYear()} UniStore Enterprises LTD.</span>
                     <div className="flex gap-4">
                         <a href="#" className="hover:text-gray-500 transition-colors">Privacy Policy</a>
                     </div>

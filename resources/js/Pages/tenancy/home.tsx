@@ -16,7 +16,7 @@ interface Props {
 export default function TenancyHome({ auth }: Props) {
     return (
         <div className="min-h-screen bg-white font-sans text-gray-900">
-            <Head title="Start Your Business - MicroMarket" />
+            <Head title="Start Your Business - UniStore" />
 
             {/* Simple Navbar */}
             <nav className="px-6 py-6 flex items-center justify-between max-w-7xl mx-auto">
@@ -24,7 +24,7 @@ export default function TenancyHome({ auth }: Props) {
                     <div className="p-1.5 rounded-lg bg-blue-600 text-white">
                         <Flower size={24} />
                     </div>
-                    <span className="text-xl font-bold tracking-tight text-gray-900">MicroMarket</span>
+                    <span className="text-xl font-bold tracking-tight text-gray-900">UniStore</span>
                 </div>
                 <div className="flex items-center gap-6">
                     {auth.user ? (
@@ -131,7 +131,7 @@ export default function TenancyHome({ auth }: Props) {
             </main>
 
             <footer className="max-w-7xl mx-auto px-6 py-12 border-t border-gray-100 text-center text-sm font-bold text-gray-300 tracking-widest uppercase">
-                &copy; {new Date().getFullYear()} MicroMarket Multi-Tenant Platform
+                &copy; {new Date().getFullYear()} UniStore Multi-Tenant Platform
             </footer>
         </div>
     );

@@ -23,7 +23,7 @@ export default function Login() {
 
     return (
         <div className="min-h-screen w-full flex bg-white font-sans overflow-hidden">
-            <Head title="Login - MicroMarket" />
+            <Head title="Login - UniStore" />
             
             {/* Left Section: Form */}
             <motion.div 
@@ -37,7 +37,7 @@ export default function Login() {
                     <div className="p-1.5 rounded-lg bg-blue-600 text-white shadow-lg shadow-blue-200 group-hover:scale-110 transition-transform">
                         <Flower size={24} />
                     </div>
-                    <span className="text-xl font-bold tracking-tight text-gray-900">MicroMarket</span>
+                    <span className="text-xl font-bold tracking-tight text-gray-900">UniStore</span>
                 </Link>
 
                 <div className="max-w-md w-full mx-auto my-auto">
@@ -164,7 +164,7 @@ export default function Login() {
 
                 {/* Footer Info */}
                 <div className="mt-auto pt-8 flex justify-between items-center text-[10px] uppercase font-bold tracking-widest text-gray-300">
-                    <span>Copyright © {new Date().getFullYear()} MicroMarket Enterprises LTD.</span>
+                    <span>Copyright © {new Date().getFullYear()} UniStore Enterprises LTD.</span>
                     <div className="flex gap-4">
                         <a href="#" className="hover:text-gray-500 transition-colors">Privacy Policy</a>
                     </div>
