@@ -1060,7 +1060,6 @@ Junior Full Stack Web Developer
 
 ---
 
-## 📄 License
 
 ## 📄 License
 
