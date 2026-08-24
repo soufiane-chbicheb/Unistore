@@ -601,6 +601,17 @@ Add application screenshots to the repository and reference them here.
 
 ![Create Store](screenshots/create-store.png)
 
+### coupons
+
+![coupons](screenshots/coupons.png)
+
+### add coupon
+
+![add coupon](screenshots/add-coupon.png)
+
+### payment
+
+![payment](screenshots/payment.png)
 
 
 
@@ -612,54 +623,60 @@ Add application screenshots to the repository and reference them here.
 ```text
 UniStore/
 │
-├── app/
-│   ├── Actions/
-│   ├── Context/
-│   ├── DTOs/
-│   ├── Events/
-│   ├── Exceptions/
-│   ├── Http/
-│   │   ├── Controllers/
-│   │   ├── Middleware/
-│   │   ├── Requests/
-│   │   └── Resources/
-│   ├── Jobs/
-│   ├── Listeners/
-│   ├── Mail/
-│   ├── Models/
-│   ├── Policies/
-│   ├── Providers/
-│   ├── Repositories/
-│   ├── Services/
-│   └── Traits/
-│
-├── database/
-│   ├── factories/
-│   ├── migrations/
-│   └── seeders/
-│
-├── resources/
-│   ├── js/
-│   │   ├── Components/
-│   │   ├── Layouts/
-│   │   ├── Pages/
-│   │   ├── hooks/
-│   │   ├── services/
-│   │   └── types/
-│   └── views/
-│
-├── routes/
-│   ├── web.php
-│   ├── api.php
-│   └── console.php
-│
-├── public/
-├── storage/
-├── tests/
-├── package.json
-├── composer.json
-├── vite.config.ts
-└── README.md
+├── a-UNISTORE-codeSource/
+        ├── app/
+        │   ├── Actions/
+        │   ├── Context/
+        │   ├── DTOs/
+        │   ├── Events/
+        │   ├── Exceptions/
+        │   ├── Http/
+        │   │   ├── Controllers/
+        │   │   ├── Middleware/
+        │   │   ├── Requests/
+        │   │   └── Resources/
+        │   ├── Jobs/
+        │   ├── Listeners/
+        │   ├── Mail/
+        │   ├── Models/
+        │   ├── Policies/
+        │   ├── Providers/
+        │   ├── Repositories/
+        │   ├── Services/
+        │   └── Traits/
+        │
+        ├── database/
+        │   ├── factories/
+        │   ├── migrations/
+        │   └── seeders/
+        │
+        ├── resources/
+        │   ├── js/
+        │   │   ├── Components/
+        │   │   ├── Layouts/
+        │   │   ├── Pages/
+        │   │   ├── hooks/
+        │   │   ├── services/
+        │   │   └── types/
+        │   └── views/
+        │
+        ├── routes/
+        │   ├── web.php
+        │   ├── api.php
+        │   └── console.php
+        │
+        ├── public/
+        ├── storage/
+        ├── tests/
+        ├── package.json
+        ├── composer.json
+        ├── vite.config.ts
+        └── README.md
+├── Product Requirements Document|| cahier des charges /         
+├── screenshots/        
+├── diagrammes UML/        
+├── mochups figma/        
+├── jira team work/        
 ```
 
 ---
